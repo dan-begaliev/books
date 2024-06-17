@@ -287,6 +287,7 @@ const books = [
     img: "https://www.usatoday.com/gcdn/presto/2022/07/21/USAT/21803675-4770-4fd6-9074-10da7c30965f-AP_Books_Michelle_Obama.jpg?crop=3755,3755,x0,y0",
   },
 ];
+
 function createBookCard(book) {
   const card = document.createElement("div");
   card.classList.add("card");
