@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/641a70305b.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="left-container">
+        <h3>All books</h3>
+        <p class="bold">Discover</p>
+        <div class="line-height">
+          <div class="inline">
+            <i class="far fa-house"></i>
+            <h4>Home</h4>
+          </div>
+          <div class="inline">
+            <i class="far fa-magnifying-glass"></i>
+            <h4>Browse</h4>
+          </div>
+          <div class="inline">
+            <i class="far fa-tower-broadcast"></i>
+            <h4>Radio</h4>
+          </div>
+        </div>
+        <p class="bold">Library</p>
+        <div class="line-height">
+          <div class="inline">
+            <i class="far fa-list"></i>
+            <h4>Book list</h4>
+          </div>
+          <div class="inline">
+            <i class="far fa-music"></i>
+            <h4>Audio books</h4>
+          </div>
+          <div class="inline">
+            <i class="far fa-smile"></i>
+            <h4>Personalized picks</h4>
+          </div>
+        </div>
+      </div>
+      <div class="right-container">
+        <div id="top">
+          <input
+            id="search-input"
+            type="text"
+            placeholder="Please enter the name..."
+          />
+          <button id="search-button">Search</button>
+          <select id="genre" name="genre">
+            <option value="All">All genres</option>
+            <option value="fiction">Fiction</option>
+            <option value="non-fiction">Non-Fiction</option>
+            <option value="mystery">Mystery</option>
+            <option value="fantasy">Fantasy</option>
+            <option value="science-fiction">Science Fiction</option>
+            <option value="romance">Romance</option>
+            <option value="horror">Horror</option>
+            <option value="biography">Biography</option>
+          </select>
+        </div>
+        <h1 id="books">Books</h1>
+        <p>All books:</p>
+
+        <div class="books-container">
+          <div class="card">
+            <img width="170px" height="220px" src="" alt="Book" />
+            <h4>Title</h4>
+            <p>Authors name</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
